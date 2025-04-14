@@ -15,7 +15,7 @@ int main() {
     
     for (int i = 1; i <= 200; i++) {
         if (i % n == 3 && i % 2 == 0) {
-            printf("%d\n", i);
+        printf("%d\n", i);
         }
     }
 
