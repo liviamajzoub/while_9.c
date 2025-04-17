@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() 
+int main() {
     int n, i=1;
 
     printf("Digite um numero inteiro n: ");
