@@ -1,23 +1,16 @@
 #include <stdio.h>
-
-int main() {
-    int n; 
+int main() 
+    int n, i=1;
 
     printf("Digite um numero inteiro n: ");
     scanf("%d", &n);
-    
-    if (n == 0) {
-        printf("Divisao por zero não eh permitida.\n");
-        return 1;
-    }
 
-    printf("Numeros de 1 a 200 que divididos por %d dao resto 3 e sao pares:\n", n);
-    
-    if (int i = 1; i <= 200; i++) {
-        if (i % n == 3 && i % 2 == 0) {
-        printf("%d\n", i);
-        }
+while(i<=200){ 
+    if (i%2==0 && i%n==3){ 
+        printf("%d\n",i); 
     }
-
-    return 0;
+    i=i+1; 
 }
+
+return 0;
+} 
